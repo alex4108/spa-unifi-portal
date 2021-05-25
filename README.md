@@ -16,6 +16,12 @@ This is the bread and butter.  It's an in-browser application to:
 The first two lines of `app.js` should be configured based on your needs.
 You may also wish to modify `submitToListServ()` as needed.  Hopefully your JS is better than mine ;)
 
+## Running the site locally
+
+You can `bash start_dev.sh` to run a python SimpleHTTPServer to serve the page.
+
+## Installing to Unifi Controller
+
 You can build the tarball to deploy to your unifi controller by reading over `deploy.sh` and extracting the necessary components.
 For speed, the deploy script will deploy to the container running on your machine.  
 Hopefully you don't run the client's Unifi portal in an ephemeral container :) 
