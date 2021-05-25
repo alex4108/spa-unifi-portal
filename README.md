@@ -14,7 +14,7 @@ This is the bread and butter.  It's an in-browser application to:
 1. Tell Unifi to authenticate this client
 
 The first two lines of `app.js` should be configured based on your needs.
-You may also wish to modify `submitToListServ()` as needed.  Hopefully your JS is better than mine ;)
+You may also wish to modify `submitToListServ()` as needed.  Hopefully your JS is better than mine :wink:
 
 ## Running the site locally
 
@@ -24,7 +24,7 @@ You can `bash start_dev.sh` to run a python SimpleHTTPServer to serve the page.
 
 You can build the tarball to deploy to your unifi controller by reading over `deploy.sh` and extracting the necessary components.
 For speed, the deploy script will deploy to the container running on your machine.  
-Hopefully you don't run the client's Unifi portal in an ephemeral container :) 
+Hopefully you don't run the client's Unifi portal in an ephemeral container :smile:
 
 After deployment to the Unifi controller, you should be able to view the site here: `http://localhost:8880/guest/s/default/#/`
 You should validate the Unifi Guest Control has these settings enabled for valid testing:
